@@ -8,7 +8,6 @@ function Navbar() {
         window.addEventListener("scroll",() => {
             if(window.scrollY > 100){
                 handleShow(true);
-                console.log("YAYYAYAYAYAYYA",show);
             }
             else {
                 handleShow(false);

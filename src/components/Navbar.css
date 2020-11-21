@@ -1,5 +1,5 @@
 .navbar {
-  position: fixed;
+  position: absolute;
   top: 0px;
   width: 100%;
   display: flex;
@@ -14,10 +14,10 @@
   left: 20px;
 }
 .navbar__avatar {
-  position: fixed;
+  position: absolute;
   object-fit: contain;
   width: 30px;
-  right: 20px;
+  right: 50px;
 }
 
 .navbar__black {
